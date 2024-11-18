@@ -78,8 +78,8 @@ class ProjectCardWidget extends StatelessWidget {
                       js.context.callMethod("open", [project.iosLink]);
                     },
                     child: Image.asset(
-                      "assets/ios_icon.png",
-                      width: 19,
+                      "assets/apple.png",
+                      width: 17,
                     ),
                   ),
                 if (project.androidLink != null)
@@ -90,7 +90,7 @@ class ProjectCardWidget extends StatelessWidget {
                         js.context.callMethod("open", [project.androidLink]);
                       },
                       child: Image.asset(
-                        "assets/android_icon.png",
+                        "assets/android.png",
                         width: 17,
                       ),
                     ),
